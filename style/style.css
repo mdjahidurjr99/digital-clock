@@ -17,6 +17,7 @@
 .container{
     width: 800px;
     height: 180px;
+    border-radius: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -78,4 +79,10 @@
 }
 #sec::after{
     content: 'SEC';
+}
+
+@media screen and (min-width: 350px) and (max-width: 910px){
+    .container{
+        width: 90%;
+    }
 }
